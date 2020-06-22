@@ -5,7 +5,7 @@ class Particle{
         }
         this.r = r;
         this.body = Bodies.circle(x,y,this.r,options);
-        this.color = random(0,255), random(0,255), random(0,255);
+        this.color = random(120,255), random(220,255), random(120,255);
        // this.x = x;
         //this.y = y;
         //this.r = r;
